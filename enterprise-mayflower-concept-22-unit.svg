@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="980" viewBox="0 0 1400 980">
+  <style>
+    .bg { fill:#f7f3ea; }
+    .parcel { fill:#f5e6bf; stroke:#6e5a2f; stroke-width:4; }
+    .road { fill:#8b8f97; stroke:#585d66; stroke-width:2; }
+    .roadText { font: 700 24px Arial, sans-serif; fill:#ffffff; }
+    .lot { fill:#d8f0d2; stroke:#3f6b3f; stroke-width:2; }
+    .lotAlt { fill:#cae7f7; stroke:#37627b; stroke-width:2; }
+    .open { fill:#dff3df; stroke:#4b8c4b; stroke-width:3; stroke-dasharray:8 6; }
+    .corridor { fill:#b9d7f5; stroke:#3e6f9b; stroke-width:3; stroke-dasharray:12 8; opacity:.85; }
+    .text { font: 22px Arial, sans-serif; fill:#27313a; }
+    .small { font: 18px Arial, sans-serif; fill:#27313a; }
+    .label { font: 700 20px Arial, sans-serif; fill:#1d2a33; }
+    .title { font: 700 34px Arial, sans-serif; fill:#172028; }
+    .subtitle { font: 22px Arial, sans-serif; fill:#43515d; }
+    .note { font: 18px Arial, sans-serif; fill:#4c5b66; }
+  </style>
+  <rect class="bg" x="0" y="0" width="1400" height="980" />
+  <text x="60" y="60" class="title">Enterprise / Mayflower concept A — 22-unit balanced site-condo plan</text>
+  <text x="60" y="95" class="subtitle">Concept only • not survey-grade • based on ~5.03 acres, ~101' Mayflower access, and a NW→SE sewer/creek corridor</text>
+
+<path d="M180,180 L1020,150 L1180,350 L1120,820 L320,860 L140,620 Z" class="parcel" />
+<rect class="road" x="40" y="420" width="180" height="110" rx="8" /><text x="70" y="485" class="roadText">Mayflower St</text>
+<rect class="road" x="180" y="446" width="110" height="58" rx="8" />
+<polygon class="corridor" points="240,220 350,180 980,760 880,805" />
+
+  <rect x="1030" y="70" width="310" height="175" rx="16" fill="#ffffff" stroke="#d0d8de" />
+  <rect x="1060" y="105" width="34" height="24" class="lot" />
+  <text x="1110" y="124" class="small">Unit / condo parcel</text>
+  <rect x="1060" y="145" width="34" height="24" class="corridor" />
+  <text x="1110" y="164" class="small">Creek + sewer easement setback</text>
+  <rect x="1060" y="185" width="34" height="24" class="open" />
+  <text x="1110" y="204" class="small">Common open space / amenity</text>
+
+<path d="M220,475 C300,470 380,430 470,405 C590,370 710,380 820,440 C920,495 965,560 995,645" fill="none" stroke="#676d75" stroke-width="52" stroke-linecap="round"/>
+<path d="M470,405 L445,275" fill="none" stroke="#676d75" stroke-width="42" stroke-linecap="round"/>
+<path d="M685,384 L720,255" fill="none" stroke="#676d75" stroke-width="42" stroke-linecap="round"/>
+<path d="M835,445 L950,350" fill="none" stroke="#676d75" stroke-width="42" stroke-linecap="round"/>
+<rect class="open" x="560" y="500" width="170" height="120" rx="18" />
+<text x="645" y="565" text-anchor="middle" class="label">Common green</text>
+<text x="645" y="592" text-anchor="middle" class="small">mail / picnic / dog area</text>
+<rect class="lot" x="300" y="320" width="78" height="56" rx="6" /><text x="339.0" y="355.0" text-anchor="middle" class="small">1</text>
+<rect class="lot" x="300" y="410" width="78" height="56" rx="6" /><text x="339.0" y="445.0" text-anchor="middle" class="small">2</text>
+<rect class="lot" x="295" y="500" width="78" height="56" rx="6" /><text x="334.0" y="535.0" text-anchor="middle" class="small">3</text>
+<rect class="lot" x="305" y="590" width="78" height="56" rx="6" /><text x="344.0" y="625.0" text-anchor="middle" class="small">4</text>
+<rect class="lot" x="395" y="300" width="78" height="56" rx="6" /><text x="434.0" y="335.0" text-anchor="middle" class="small">5</text>
+<rect class="lot" x="400" y="390" width="78" height="56" rx="6" /><text x="439.0" y="425.0" text-anchor="middle" class="small">6</text>
+<rect class="lot" x="395" y="575" width="78" height="56" rx="6" /><text x="434.0" y="610.0" text-anchor="middle" class="small">7</text>
+<rect class="lot" x="485" y="280" width="78" height="56" rx="6" /><text x="524.0" y="315.0" text-anchor="middle" class="small">8</text>
+<rect class="lot" x="490" y="355" width="78" height="56" rx="6" /><text x="529.0" y="390.0" text-anchor="middle" class="small">9</text>
+<rect class="lot" x="500" y="650" width="78" height="56" rx="6" /><text x="539.0" y="685.0" text-anchor="middle" class="small">10</text>
+<rect class="lot" x="585" y="265" width="78" height="56" rx="6" /><text x="624.0" y="300.0" text-anchor="middle" class="small">11</text>
+<rect class="lot" x="595" y="650" width="78" height="56" rx="6" /><text x="634.0" y="685.0" text-anchor="middle" class="small">12</text>
+<rect class="lot" x="690" y="275" width="78" height="56" rx="6" /><text x="729.0" y="310.0" text-anchor="middle" class="small">13</text>
+<rect class="lot" x="700" y="645" width="78" height="56" rx="6" /><text x="739.0" y="680.0" text-anchor="middle" class="small">14</text>
+<rect class="lotAlt" x="800" y="305" width="78" height="56" rx="6" /><text x="839.0" y="340.0" text-anchor="middle" class="small">15</text>
+<rect class="lotAlt" x="820" y="625" width="78" height="56" rx="6" /><text x="859.0" y="660.0" text-anchor="middle" class="small">16</text>
+<rect class="lotAlt" x="900" y="390" width="78" height="56" rx="6" /><text x="939.0" y="425.0" text-anchor="middle" class="small">17</text>
+<rect class="lotAlt" x="930" y="540" width="78" height="56" rx="6" /><text x="969.0" y="575.0" text-anchor="middle" class="small">18</text>
+<rect class="lotAlt" x="1010" y="430" width="78" height="56" rx="6" /><text x="1049.0" y="465.0" text-anchor="middle" class="small">19</text>
+<rect class="lotAlt" x="1020" y="540" width="78" height="56" rx="6" /><text x="1059.0" y="575.0" text-anchor="middle" class="small">20</text>
+<rect class="lotAlt" x="870" y="700" width="78" height="56" rx="6" /><text x="909.0" y="735.0" text-anchor="middle" class="small">21</text>
+<rect class="lotAlt" x="770" y="705" width="78" height="56" rx="6" /><text x="809.0" y="740.0" text-anchor="middle" class="small">22</text>
+<text x="86" y="390" class="label">Approx. 101' frontage</text>
+<text x="180" y="545" class="label">Single controlled entry</text>
+<text x="1030" y="300" class="label">Why 22 can work</text>
+<text x="1030" y="335" class="note">• Keeps the creek/easement as a real amenity instead of fighting it</text>
+<text x="1030" y="365" class="note">• Mix of 1BR / 2BR cottages works for flight-school demand</text>
+<text x="1030" y="395" class="note">• Better than 25 for parking, stormwater, and fire access</text>
+<text x="1030" y="425" class="note">• Suitable for a horizontal condo / site-condo regime</text>
+</svg>
