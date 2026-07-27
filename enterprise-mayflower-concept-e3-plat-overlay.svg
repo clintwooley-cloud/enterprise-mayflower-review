@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2200" height="1700" viewBox="0 0 2200 1700">
+  <style>
+    .title { font:700 42px Arial,sans-serif; fill:#172028; }
+    .subtitle { font:26px Arial,sans-serif; fill:#43515d; }
+    .note { font:24px Arial,sans-serif; fill:#24323a; }
+    .tiny { font:18px Arial,sans-serif; fill:#33424d; }
+    .drive { fill:none; stroke:#616872; stroke-width:42; stroke-linecap:round; opacity:.9; }
+    .court { fill:#ececec; stroke:#777; stroke-width:3; opacity:.95; }
+    .stall { fill:#fafafa; stroke:#999; stroke-width:1.5; }
+    .green { fill:#dff3df; stroke:#4b8c4b; stroke-width:4; stroke-dasharray:10 8; opacity:.85; }
+    .cottage { fill:#d8f0d2; stroke:#3f6b3f; stroke-width:3; opacity:.95; }
+    .cottageAlt { fill:#cae7f7; stroke:#37627b; stroke-width:3; opacity:.95; }
+    .corridor { fill:#9fc6ea; stroke:#2e648f; stroke-width:4; stroke-dasharray:14 10; opacity:.45; }
+    .callout { fill:#ffffff; stroke:#cfd8de; stroke-width:2; opacity:.96; }
+    .arrow { fill:none; stroke:#27485d; stroke-width:3; marker-end:url(#arrow); }
+  </style>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#27485d" />
+    </marker>
+  </defs>
+  <image href="enterprise-plat-rendered.png" x="0" y="0" width="2200" height="1700" />
+  <rect x="0" y="0" width="2200" height="190" fill="#f7f3ea" opacity=".88" />
+  <text x="55" y="60" class="title">Enterprise / Mayflower concept E3 — rebuilt from actual plat background</text>
+  <text x="55" y="102" class="subtitle">18-site-built-cottage concept • avg. cottage footprint about 24' x 36' • parking + commons shown conceptually only</text>
+  <text x="55" y="145" class="tiny">This version uses the actual plat image as the base so Mayflower frontage, parcel shape, and the corridor can be reviewed against the source drawing.</text>
+
+  <!-- key overlay zones -->
+  <polygon class="corridor" points="720,930 980,865 1420,1220 1170,1320 900,1155" />
+  <path class="drive" d="M1120,460 C1120,580 1100,700 1030,800 C980,870 980,950 1040,1035 C1090,1100 1160,1140 1230,1185" />
+  <path class="drive" d="M1030,800 C880,815 760,875 690,985" />
+  <path class="drive" d="M1080,760 C1250,770 1395,845 1510,955" />
+
+  <rect class="green" x="930" y="760" width="300" height="265" rx="28" />
+  <text x="1080" y="885" text-anchor="middle" class="note">central commons / paseo</text>
+  <text x="1080" y="920" text-anchor="middle" class="tiny">mail kiosk • pavilion • dog area • shared lawn</text>
+
+  <!-- cottages -->
+  <g>
+    <rect class="cottage" x="900" y="555" width="102" height="68" rx="7" /><text x="951" y="597" text-anchor="middle" class="tiny">1</text>
+    <rect class="cottage" x="1035" y="540" width="102" height="68" rx="7" /><text x="1086" y="582" text-anchor="middle" class="tiny">2</text>
+    <rect class="cottage" x="1170" y="555" width="102" height="68" rx="7" /><text x="1221" y="597" text-anchor="middle" class="tiny">3</text>
+    <rect class="cottage" x="1310" y="610" width="102" height="68" rx="7" /><text x="1361" y="652" text-anchor="middle" class="tiny">4</text>
+    <rect class="cottage" x="1430" y="700" width="102" height="68" rx="7" /><text x="1481" y="742" text-anchor="middle" class="tiny">5</text>
+    <rect class="cottageAlt" x="1510" y="835" width="102" height="68" rx="7" /><text x="1561" y="877" text-anchor="middle" class="tiny">6</text>
+    <rect class="cottageAlt" x="1490" y="985" width="102" height="68" rx="7" /><text x="1541" y="1027" text-anchor="middle" class="tiny">7</text>
+    <rect class="cottageAlt" x="1380" y="1110" width="102" height="68" rx="7" /><text x="1431" y="1152" text-anchor="middle" class="tiny">8</text>
+    <rect class="cottageAlt" x="1245" y="1195" width="102" height="68" rx="7" /><text x="1296" y="1237" text-anchor="middle" class="tiny">9</text>
+    <rect class="cottageAlt" x="1095" y="1240" width="102" height="68" rx="7" /><text x="1146" y="1282" text-anchor="middle" class="tiny">10</text>
+    <rect class="cottageAlt" x="940" y="1230" width="102" height="68" rx="7" /><text x="991" y="1272" text-anchor="middle" class="tiny">11</text>
+    <rect class="cottageAlt" x="790" y="1170" width="102" height="68" rx="7" /><text x="841" y="1212" text-anchor="middle" class="tiny">12</text>
+    <rect class="cottage" x="670" y="1080" width="102" height="68" rx="7" /><text x="721" y="1122" text-anchor="middle" class="tiny">13</text>
+    <rect class="cottage" x="620" y="955" width="102" height="68" rx="7" /><text x="671" y="997" text-anchor="middle" class="tiny">14</text>
+    <rect class="cottage" x="665" y="820" width="102" height="68" rx="7" /><text x="716" y="862" text-anchor="middle" class="tiny">15</text>
+    <rect class="cottage" x="740" y="700" width="102" height="68" rx="7" /><text x="791" y="742" text-anchor="middle" class="tiny">16</text>
+    <rect class="cottage" x="800" y="605" width="102" height="68" rx="7" /><text x="851" y="647" text-anchor="middle" class="tiny">17</text>
+    <rect class="cottage" x="960" y="1325" width="102" height="68" rx="7" /><text x="1011" y="1367" text-anchor="middle" class="tiny">18</text>
+  </g>
+
+  <!-- parking -->
+  <g>
+    <rect class="court" x="845" y="425" width="420" height="88" rx="12" />
+    <text x="1055" y="413" text-anchor="middle" class="tiny">front arrival / resident court — 12 spaces</text>
+    <rect class="stall" x="860" y="440" width="26" height="56" /><rect class="stall" x="890" y="440" width="26" height="56" /><rect class="stall" x="920" y="440" width="26" height="56" /><rect class="stall" x="950" y="440" width="26" height="56" /><rect class="stall" x="980" y="440" width="26" height="56" /><rect class="stall" x="1010" y="440" width="26" height="56" />
+    <rect class="stall" x="1074" y="440" width="26" height="56" /><rect class="stall" x="1104" y="440" width="26" height="56" /><rect class="stall" x="1134" y="440" width="26" height="56" /><rect class="stall" x="1164" y="440" width="26" height="56" /><rect class="stall" x="1194" y="440" width="26" height="56" /><rect class="stall" x="1224" y="440" width="26" height="56" />
+
+    <rect class="court" x="545" y="1185" width="235" height="86" rx="12" />
+    <text x="662" y="1173" text-anchor="middle" class="tiny">west court — 8 spaces</text>
+    <rect class="stall" x="560" y="1200" width="26" height="56" /><rect class="stall" x="590" y="1200" width="26" height="56" /><rect class="stall" x="620" y="1200" width="26" height="56" /><rect class="stall" x="650" y="1200" width="26" height="56" /><rect class="stall" x="694" y="1200" width="26" height="56" /><rect class="stall" x="724" y="1200" width="26" height="56" /><rect class="stall" x="754" y="1200" width="26" height="56" /><rect class="stall" x="784" y="1200" width="26" height="56" />
+
+    <rect class="court" x="1440" y="1115" width="235" height="86" rx="12" />
+    <text x="1557" y="1103" text-anchor="middle" class="tiny">east court — 8 spaces</text>
+    <rect class="stall" x="1455" y="1130" width="26" height="56" /><rect class="stall" x="1485" y="1130" width="26" height="56" /><rect class="stall" x="1515" y="1130" width="26" height="56" /><rect class="stall" x="1545" y="1130" width="26" height="56" /><rect class="stall" x="1589" y="1130" width="26" height="56" /><rect class="stall" x="1619" y="1130" width="26" height="56" /><rect class="stall" x="1649" y="1130" width="26" height="56" /><rect class="stall" x="1679" y="1130" width="26" height="56" />
+  </g>
+
+  <!-- callouts -->
+  <rect class="callout" x="73" y="220" width="470" height="175" rx="18" />
+  <text x="98" y="265" class="note">What changed</text>
+  <text x="98" y="305" class="tiny">• This redraw sits on the actual plat PDF image.</text>
+  <text x="98" y="335" class="tiny">• Mayflower frontage is treated at the top/frontage area.</text>
+  <text x="98" y="365" class="tiny">• The creek / sewer corridor is held out as no-build common area.</text>
+  <path class="arrow" d="M545,330 C700,340 845,380 960,430" />
+
+  <rect class="callout" x="70" y="1320" width="520" height="215" rx="18" />
+  <text x="95" y="1360" class="note">Parking read</text>
+  <text x="95" y="1400" class="tiny">• 28 striped shared spaces are shown in three courts.</text>
+  <text x="95" y="1430" class="tiny">• That is cleaner than scattering parking everywhere, but still may</text>
+  <text x="95" y="1460" class="tiny">  need either compact unit mix assumptions or selective tandem spaces.</text>
+  <text x="95" y="1490" class="tiny">• If Enterprise or market expectations force a harder 2-per-unit ratio,</text>
+  <text x="95" y="1520" class="tiny">  we may need to drop unit count or widen the parking courts further.</text>
+  <path class="arrow" d="M590,1450 C760,1400 885,1310 980,1245" />
+
+  <rect class="callout" x="1585" y="1380" width="520" height="160" rx="18" />
+  <text x="1610" y="1420" class="note">My read</text>
+  <text x="1610" y="1460" class="tiny">This is a much better review format because the plat geometry is visible.</text>
+  <text x="1610" y="1490" class="tiny">The next refinement should be exact cottage/parking placement once we</text>
+  <text x="1610" y="1520" class="tiny">trace the parcel and corridor more tightly from the plat.</text>
+</svg>
