@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1020" viewBox="0 0 1500 1020">
+  <style>
+    .bg { fill:#f7f3ea; }
+    .parcel { fill:#f5e6bf; stroke:#6e5a2f; stroke-width:4; }
+    .road { fill:#8b8f97; stroke:#585d66; stroke-width:2; }
+    .roadText { font: 700 24px Arial, sans-serif; fill:#fff; }
+    .drive { fill:none; stroke:#676d75; stroke-width:48; stroke-linecap:round; }
+    .driveMinor { fill:none; stroke:#676d75; stroke-width:34; stroke-linecap:round; }
+    .cottage { fill:#d8f0d2; stroke:#3f6b3f; stroke-width:2; }
+    .cottageAlt { fill:#cae7f7; stroke:#37627b; stroke-width:2; }
+    .open { fill:#dff3df; stroke:#4b8c4b; stroke-width:3; stroke-dasharray:8 6; }
+    .corridor { fill:#b9d7f5; stroke:#3e6f9b; stroke-width:3; stroke-dasharray:12 8; opacity:.85; }
+    .parking { fill:#ededed; stroke:#777; stroke-width:2; }
+    .stall { fill:#fafafa; stroke:#9a9a9a; stroke-width:1; }
+    .title { font:700 32px Arial,sans-serif; fill:#172028; }
+    .subtitle { font:21px Arial,sans-serif; fill:#43515d; }
+    .label { font:700 20px Arial,sans-serif; fill:#1d2a33; }
+    .small { font:18px Arial,sans-serif; fill:#27313a; }
+    .tiny { font:14px Arial,sans-serif; fill:#27313a; }
+    .note { font:18px Arial,sans-serif; fill:#4c5b66; }
+  </style>
+  <rect class="bg" x="0" y="0" width="1500" height="1020" />
+  <text x="60" y="60" class="title">Enterprise / Mayflower concept E2 — best-version 18-unit site-built cottage plan with parking</text>
+  <text x="60" y="95" class="subtitle">Assumes avg. 24' x 36' cottages (~864 sf) • condo/site-condo structure • concept only / not survey-grade</text>
+  <path d="M180,180 L1020,150 L1180,350 L1120,820 L320,860 L140,620 Z" class="parcel" />
+  <rect class="road" x="40" y="420" width="180" height="110" rx="8" /><text x="70" y="485" class="roadText">Mayflower St</text>
+  <rect class="road" x="180" y="446" width="110" height="58" rx="8" />
+  <polygon class="corridor" points="240,220 350,180 980,760 880,805" />
+
+  <rect x="1085" y="70" width="355" height="225" rx="16" fill="#fff" stroke="#d0d8de" />
+  <rect x="1115" y="105" width="36" height="24" class="cottage" /><text x="1165" y="124" class="small">24' x 36' avg. cottage footprint</text>
+  <rect x="1115" y="145" width="34" height="24" class="parking" /><text x="1165" y="164" class="small">parking court / bay</text>
+  <rect x="1115" y="185" width="34" height="24" class="corridor" /><text x="1165" y="204" class="small">creek + sewer easement spine</text>
+  <rect x="1115" y="225" width="34" height="24" class="open" /><text x="1165" y="244" class="small">common green / amenity</text>
+  <text x="1115" y="274" class="tiny">Parking shown as concept massing, not striped engineering.</text>
+
+  <path class="drive" d="M220,475 C330,470 470,440 610,430 C760,420 875,470 965,565 C995,595 1010,630 1015,680"/>
+  <path class="driveMinor" d="M610,430 L590,300"/>
+  <rect class="open" x="500" y="480" width="280" height="195" rx="24" />
+  <text x="640" y="563" text-anchor="middle" class="label">commons / paseo lawn</text>
+  <text x="640" y="593" text-anchor="middle" class="small">mail kiosk, pavilion, dog area, walking spine</text>
+
+  <!-- cottages -->
+  <g>
+    <rect class="cottage" x="285" y="300" width="92" height="60" rx="6" /><text x="331" y="325" text-anchor="middle" class="small">1</text><text x="331" y="345" text-anchor="middle" class="tiny">24x36</text>
+    <rect class="cottage" x="292" y="395" width="92" height="60" rx="6" /><text x="338" y="420" text-anchor="middle" class="small">2</text><text x="338" y="440" text-anchor="middle" class="tiny">24x36</text>
+    <rect class="cottage" x="292" y="500" width="92" height="60" rx="6" /><text x="338" y="525" text-anchor="middle" class="small">3</text><text x="338" y="545" text-anchor="middle" class="tiny">24x36</text>
+    <rect class="cottage" x="302" y="600" width="92" height="60" rx="6" /><text x="348" y="625" text-anchor="middle" class="small">4</text><text x="348" y="645" text-anchor="middle" class="tiny">24x36</text>
+    <rect class="cottage" x="392" y="275" width="92" height="60" rx="6" /><text x="438" y="300" text-anchor="middle" class="small">5</text><text x="438" y="320" text-anchor="middle" class="tiny">24x36</text>
+    <rect class="cottage" x="395" y="620" width="92" height="60" rx="6" /><text x="441" y="645" text-anchor="middle" class="small">6</text><text x="441" y="665" text-anchor="middle" class="tiny">24x36</text>
+    <rect class="cottage" x="495" y="245" width="92" height="60" rx="6" /><text x="541" y="270" text-anchor="middle" class="small">7</text><text x="541" y="290" text-anchor="middle" class="tiny">24x36</text>
+    <rect class="cottage" x="500" y="685" width="92" height="60" rx="6" /><text x="546" y="710" text-anchor="middle" class="small">8</text><text x="546" y="730" text-anchor="middle" class="tiny">24x36</text>
+    <rect class="cottage" x="605" y="235" width="92" height="60" rx="6" /><text x="651" y="260" text-anchor="middle" class="small">9</text><text x="651" y="280" text-anchor="middle" class="tiny">24x36</text>
+    <rect class="cottage" x="615" y="688" width="92" height="60" rx="6" /><text x="661" y="713" text-anchor="middle" class="small">10</text><text x="661" y="733" text-anchor="middle" class="tiny">24x36</text>
+    <rect class="cottage" x="720" y="245" width="92" height="60" rx="6" /><text x="766" y="270" text-anchor="middle" class="small">11</text><text x="766" y="290" text-anchor="middle" class="tiny">24x36</text>
+    <rect class="cottage" x="730" y="680" width="92" height="60" rx="6" /><text x="776" y="705" text-anchor="middle" class="small">12</text><text x="776" y="725" text-anchor="middle" class="tiny">24x36</text>
+    <rect class="cottageAlt" x="830" y="290" width="92" height="60" rx="6" /><text x="876" y="315" text-anchor="middle" class="small">13</text><text x="876" y="335" text-anchor="middle" class="tiny">24x36</text>
+    <rect class="cottageAlt" x="900" y="380" width="92" height="60" rx="6" /><text x="946" y="405" text-anchor="middle" class="small">14</text><text x="946" y="425" text-anchor="middle" class="tiny">24x36</text>
+    <rect class="cottageAlt" x="938" y="510" width="92" height="60" rx="6" /><text x="984" y="535" text-anchor="middle" class="small">15</text><text x="984" y="555" text-anchor="middle" class="tiny">24x36</text>
+    <rect class="cottageAlt" x="865" y="610" width="92" height="60" rx="6" /><text x="911" y="635" text-anchor="middle" class="small">16</text><text x="911" y="655" text-anchor="middle" class="tiny">24x36</text>
+    <rect class="cottageAlt" x="755" y="605" width="92" height="60" rx="6" /><text x="801" y="630" text-anchor="middle" class="small">17</text><text x="801" y="650" text-anchor="middle" class="tiny">24x36</text>
+    <rect class="cottageAlt" x="648" y="610" width="92" height="60" rx="6" /><text x="694" y="635" text-anchor="middle" class="small">18</text><text x="694" y="655" text-anchor="middle" class="tiny">24x36</text>
+  </g>
+
+  <!-- parking courts -->
+  <g>
+    <rect class="parking" x="220" y="695" width="170" height="74" rx="10" />
+    <text x="305" y="688" text-anchor="middle" class="small">West guest court — 6 spaces</text>
+    <rect class="stall" x="232" y="708" width="22" height="48" /><rect class="stall" x="256" y="708" width="22" height="48" /><rect class="stall" x="280" y="708" width="22" height="48" /><rect class="stall" x="308" y="708" width="22" height="48" /><rect class="stall" x="332" y="708" width="22" height="48" /><rect class="stall" x="356" y="708" width="22" height="48" />
+
+    <rect class="parking" x="885" y="692" width="168" height="74" rx="10" />
+    <text x="969" y="685" text-anchor="middle" class="small">East guest court — 6 spaces</text>
+    <rect class="stall" x="897" y="705" width="22" height="48" /><rect class="stall" x="921" y="705" width="22" height="48" /><rect class="stall" x="945" y="705" width="22" height="48" /><rect class="stall" x="973" y="705" width="22" height="48" /><rect class="stall" x="997" y="705" width="22" height="48" /><rect class="stall" x="1021" y="705" width="22" height="48" />
+
+    <rect class="parking" x="435" y="700" width="230" height="74" rx="10" />
+    <text x="550" y="693" text-anchor="middle" class="small">South resident court — 8 spaces</text>
+    <rect class="stall" x="447" y="713" width="22" height="48" /><rect class="stall" x="471" y="713" width="22" height="48" /><rect class="stall" x="495" y="713" width="22" height="48" /><rect class="stall" x="519" y="713" width="22" height="48" /><rect class="stall" x="555" y="713" width="22" height="48" /><rect class="stall" x="579" y="713" width="22" height="48" /><rect class="stall" x="603" y="713" width="22" height="48" /><rect class="stall" x="627" y="713" width="22" height="48" />
+
+    <rect class="parking" x="760" y="695" width="112" height="74" rx="10" />
+    <text x="816" y="688" text-anchor="middle" class="small">South-east — 4 spaces</text>
+    <rect class="stall" x="772" y="708" width="22" height="48" /><rect class="stall" x="796" y="708" width="22" height="48" /><rect class="stall" x="824" y="708" width="22" height="48" /><rect class="stall" x="848" y="708" width="22" height="48" />
+
+    <rect class="parking" x="942" y="445" width="120" height="86" rx="10" />
+    <text x="1002" y="437" text-anchor="middle" class="small">East side — 4 spaces</text>
+    <rect class="stall" x="955" y="458" width="48" height="22" /><rect class="stall" x="955" y="484" width="48" height="22" /><rect class="stall" x="1009" y="458" width="48" height="22" /><rect class="stall" x="1009" y="484" width="48" height="22" />
+  </g>
+
+  <text x="1085" y="338" class="label">Parking concept</text>
+  <text x="1085" y="373" class="note">• Shown at roughly 28 striped spaces in shared courts</text>
+  <text x="1085" y="403" class="note">• Could pair with select driveway/tandem spaces if needed</text>
+  <text x="1085" y="433" class="note">• Best if product is mostly compact 1BR / 2BR cottages</text>
+  <text x="1085" y="463" class="note">• If full 2-spaces-per-unit is required everywhere, the site tightens fast</text>
+  <text x="1085" y="493" class="note">• This is the cleanest premium-feel version so far</text>
+
+  <text x="88" y="390" class="label">Approx. 101' frontage</text>
+  <text x="165" y="545" class="label">single controlled entry</text>
+</svg>
